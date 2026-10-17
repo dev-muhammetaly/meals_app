@@ -1,59 +1,18 @@
-# 🍽️ Meals App
+# Meals App
 
-A meal browsing app built with Flutter where users can explore food categories, view detailed meal information, and filter meals by dietary preferences such as vegetarian, vegan, or gluten-free.
+A Flutter recipe browser with meal categories, recipe details, dietary filters and favourites.
 
-## 📸 Screenshots
+It uses bundled meal data and Riverpod for filter and favourite state. There is no backend or account setup.
 
-> _Add screenshots here by dragging images into this README on GitHub_
+## Run locally
 
-## ✨ Features
-
-- Browse meals organized by category
-- View detailed meal information and ingredients
-- Filter meals by dietary preferences (vegetarian, vegan, gluten-free, lactose-free)
-- Smooth multi-screen navigation
-- Clean and intuitive UI
-
-## 🛠️ Tech Stack
-
-- **Flutter** — cross-platform mobile framework
-- **Dart** — programming language
-- **Navigator** — built-in Flutter navigation
-- **setState** — built-in Flutter state management
-- **Material Design** — UI components
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Flutter SDK installed
-
-### Setup
-
-1. Clone the repo
-```bash
-   git clone https://github.com/dev-muhammetaly/meals_app.git
-   cd meals_app
+```sh
+flutter pub get
+flutter run
 ```
 
-2. Install dependencies
-```bash
-   flutter pub get
-```
+## What to explore
 
-3. Run the app
-```bash
-   flutter run
-```
+Browse a category, open a meal to see its details, and mark it as a favourite. The filters narrow the list by dietary preferences.
 
-## 📦 Dependencies
-
-```yaml
-dependencies:
-  flutter:
-    sdk: flutter
-```
-
-## 👨‍💻 Author
-
-**Muhammetaly Annageldiyew**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammetaly-annageldiyew-497608351)
+This is a learning project focused on navigation, filtering and shared state. Favourites are held in memory and reset when the app restarts.
